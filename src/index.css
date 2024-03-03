@@ -1,0 +1,215 @@
+/** Board **/
+.comment img {
+  height: 80px;
+  width: 80px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.comment p {
+  margin: 0;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.comment {
+  margin-left: 1.5em;
+  margin-top: 4em;
+}
+
+.commentContent {
+  width: auto;
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 5%;
+}
+
+/* like-button */
+.like-button {
+  padding: 0;
+}
+.like-button .material-icons {
+  position:relative;
+  top:0px;
+}
+
+/* save-button */
+.save-button {
+  padding: 0;
+}
+.save-button .material-icons {
+  position:relative;
+  top:0px;
+}
+
+/* reply-button */
+.reply-button {
+  padding: 0;
+}
+.reply-button .material-icons {
+  position:relative;
+  top:0px;
+}
+
+/* navlinks */
+
+.nav-item {
+  margin-right: 10px; /* Spacing between each navigation item */
+}
+
+.nav-link {
+  color: black; /* Text color of the navigation links */
+  font-size: 22px;
+  border: 1px solid white;
+  background-color: white;
+}
+
+.nav-link:hover {
+  color: #ccc; /* Text color of the navigation links on hover */
+}
+
+h2 {
+  margin: 0.5em;
+}
+
+
+/* Favicon */
+.favicon {
+  width: 50px;
+  height: 3000px;
+  border: 1px solid black;
+  margin: 0.5em;
+}
+
+/* loginPage */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+ }
+ 
+ .login-content {
+  width: 300px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+ 
+ .input-group {
+  margin-bottom: 15px; 
+  width: 100%; 
+ }
+ 
+ label {
+  display: block; 
+  margin-bottom: 5px; 
+ }
+ 
+ input {
+  width: 100%; 
+ }
+ 
+ button {
+  margin-top: 15px; 
+ }
+
+ .button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.signup-prompt {
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+.signup-prompt a {
+  color: #0000EE; 
+  text-decoration: none;
+}
+
+.signup-prompt a:hover {
+  text-decoration: underline;
+}
+
+/* For screens smaller than 576px (e.g., phones) */
+@media (max-width: 575.98px) {
+  .comment img {
+    height: 60px;
+    width: 60px;
+    padding: 3px;
+  }
+
+  .comment {
+    margin-left: 1em;
+    margin-top: 2em;
+  }
+
+  .nav-link {
+    font-size: 18px;
+  }
+}
+
+/* For screens between 576px and 767.98px (e.g., tablets) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .comment img {
+    height: 70px;
+    width: 70px;
+    padding: 4px;
+  }
+
+  .comment {
+    margin-left: 1.25em;
+    margin-top: 3em;
+  }
+
+  .nav-link {
+    font-size: 20px;
+  }
+}
+
+/* For screens between 768px and 991.98px (e.g., small laptops) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .comment img {
+    height: 80px;
+    width: 80px;
+    padding: 5px;
+  }
+
+  .comment {
+    margin-left: 1.5em;
+    margin-top: 4em;
+  }
+
+  .nav-link {
+    font-size: 22px;
+  }
+}
+
+/* For screens larger than 992px (e.g., desktops) */
+@media (min-width: 992px) {
+  .comment img {
+    height: 80px;
+    width: 80px;
+    padding: 5px;
+  }
+
+  .comment {
+    margin-left: 1.5em;
+    margin-top: 4em;
+  }
+
+  .nav-link {
+    font-size: 22px;
+  }
+}
+
+.home-img {
+	width: 100%;
+}

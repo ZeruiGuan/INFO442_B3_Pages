@@ -1,0 +1,37 @@
+[
+  {
+      "userId": "husky",
+      "userName": "Husky",
+      "userImg": "/img/Husky.jpg",
+      "text": "I got new job in Bay area! Want have coffee chat to meet new friends! If you are interesting, please contact me with123-456-7890",
+      "timestamp": 1320161040000
+  },
+  {
+      "userId": "rainer",
+      "userName": "Rainer",
+      "userImg": "/img/Rainer.jpg",
+      "text": "Can any one refer me to Tiktok? I can share you with my resume, please visit my personal website (link).",
+      "timestamp": 1320161760000
+  },
+  {
+    "userId": "johndoe",
+    "userName": "John Doe",
+    "userImg": "/img/johndoe.jpg",
+    "text": "Seeking a software engineer with expertise in Python and Django for a full-time position at our startup. Competitive salary and benefits. Interested candidates, please send your resume to jobs@example.com.",
+    "timestamp": 1645972800000
+  },
+  {
+    "userId": "janedoe",
+    "userName": "Jane Doe",
+    "userImg": "/img/janedoe.jpg",
+    "text": "Hiring a marketing manager with experience in digital marketing and social media management. Remote work options available. Apply now at careers.example.com.",
+    "timestamp": 1645973400000
+  },
+  {
+    "userId": "alexsmith",
+    "userName": "Alex Smith",
+    "userImg": "/img/alexsmith.jpg",
+    "text": "Looking for an experienced UX/UI designer to join our team. Must have a portfolio showcasing previous work. If interested, please reach out with your portfolio link and resume.",
+    "timestamp": 1645974000000
+  }
+]
