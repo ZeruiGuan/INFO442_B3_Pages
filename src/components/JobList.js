@@ -81,8 +81,7 @@ const JobList = () => {
       <div className="col-xl">
 	  <br/>
 	  <img src="https://media.istockphoto.com/id/1394701218/photo/job-search-concept-find-your-career-woman-looking-at-online-website-by-laptop-computer-people.jpg?s=1024x1024&w=is&k=20&c=3Tq0OkY8gqx38uevM8EMNV0y95S_7AU7OKxi5LJ1K64=" class="rounded mx-auto d-block home-img" alt="job search concept find your career woman looking at online website by laptop computer people"/>
-	  <p><a href="https://www.istockphoto.com/photo/job-search-concept-find-your-career-woman-looking-at-online-website-by-laptop-gm1394701218-450075777?utm_source=pixabay&utm_medium=affiliate&utm_campaign=SRP_image_sponsored&utm_content=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fjob%2F&utm_term=job+search">Image Source</a></p>
-        <br/>
+	      <br/>
         <h1 style={textCenter}>Job Listings</h1>
         <div>
           <input
